@@ -43,3 +43,7 @@
     - 出处: https://go.dev/blog/gopher
 - 放弃了埃舍尔的蜥蜴。
     - 和它有关的一篇文章: https://www.seanmichaelragan.com/html/%5B2008-04-18%5D_MC_Escher_lizard_vector_art.shtml
+
+## 用途
+
+可用于软件内部装饰，还可以用于定制贴纸、立牌、钥匙串挂件等。
