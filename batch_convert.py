@@ -6,8 +6,9 @@ from pathlib import Path
 # -------- 配置 --------
 INPUT_DIR = r"svg"
 OUTPUT_DIR = r"png"
-TARGET_WIDTH = 1680
-BACKGROUND = "none"  # 填写颜色名；"none" 透明背景
+TARGET_WIDTH = 2520
+BACKGROUND = "#ffffff"
+BACKGROUND_Y = "0.0"  # 背景不透明度
 IGNORE_FILES = {
     "bilibili-raw.svg",
     "haskell-raw.svg",
@@ -40,11 +41,12 @@ def main():
         output_file = output_path / f"{file.stem}.png"
 
         cmd = [
-            "magick",
-            "-background", BACKGROUND,
+            "inkscape",
             str(file),
-            "-resize", f"{TARGET_WIDTH}x",
-            str(output_file),
+            "-o", str(output_file),
+            "-w", str(TARGET_WIDTH),
+            "-b", BACKGROUND,
+            "-y", BACKGROUND_Y,
         ]
 
         try:
@@ -55,7 +57,7 @@ def main():
             print(f"- 转换失败: {file.name}\n    - 错误信息: {e.stderr.decode('utf-8', errors='ignore').strip()}")
             fail_count += 1
         except FileNotFoundError:
-            print("未找到 ImageMagick。请确保系统已安装 'magick' 并配置了环境变量。")
+            print("未找到 Inkscape。请确保系统已安装 'inkscape' 并配置了环境变量。")
             return
 
     print(f"处理完成。成功 {success_count} 个，失败 {fail_count} 个，跳过 {skip_count} 个。")
