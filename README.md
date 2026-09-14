@@ -13,13 +13,13 @@
 ### 编程语言图标（圆）
 
 - C++: https://github.com/isocpp/logos/blob/master/cpp_logo.svg
-- C++ 核心指南: https://github.com/isocpp/logos/blob/master/cpp_core_guidelines/cpp_core_guidelines_logo.svg
 - Racket: https://racket-lang.org/img/racket-logo.svg
 - Common Lisp: https://commons.wikimedia.org/wiki/File:Lisp_logo.svg
 - Fortran: https://github.com/fortran-lang/fortran-lang.org/blob/master/assets/img/fortran-logo.svg
 
 ### 编程语言（其他）
 
+- C++ 核心指南: https://github.com/isocpp/logos/blob/master/cpp_core_guidelines/cpp_core_guidelines_logo.svg
 - Ferris (Rust): https://rustacean.net/assets/cuddlyferris.svg
 
 ### 其他
