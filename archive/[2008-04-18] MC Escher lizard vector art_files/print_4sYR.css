@@ -1,0 +1,16 @@
+body {font-family: sans-serif; font-size: medium; color: black; background: white}
+div.tags {margin-top: 1cm; margin-bottom: 1cm}
+a.tag {color: blue; background: white; border-style: solid; border-color: blue; padding: 0.2cm; text-decoration: none}
+h1.headline {text-align: left}
+object {text-align: center }
+div.standard_image {padding: 2%}
+p.main_copy {text-align: left}
+p.update {text-align: left}
+p.quote {padding: 0.25cm; font-size: smaller; font-family: serif}
+p.last_modified {font-variant: small-caps}
+div.footer {margin-top: 1cm; text-align: left}
+div.standard_table {margin-top: 1cm; margin-bottom: 1cm}
+table.standard_table {padding: 0.25cm; text-align: center; border-collapse: collapse}
+tr.standard_row {border: thin solid black}
+td.standard_column {border: thin solid black}
+ul.whatsnew {list-style-type: none; text-align: left; text-indent: 400px; } 
