@@ -47,3 +47,14 @@
 ## 用途
 
 可用于软件内部装饰，还可以用于定制贴纸、立牌、钥匙串挂件等。
+
+## 构建
+
+环境要求：
+
+- [Python 3](https://www.python.org/)
+- [Inkscape](https://inkscape.org/) 1.0 及以上版本
+
+在根目录运行 `batch_convert.py` 即可。
+
+我在编写本项目时使用的 Inkscape 版本： `Inkscape 1.4.2 (f4327f4, 2025-05-13)`
