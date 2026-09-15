@@ -30,12 +30,12 @@
 ### 补充说明
 
 - 关于 Haskell 官方图标:
-    - 需要修改。去除文字部分，留下图形部分。
+    - 做了修改。去除了文字部分，留下了图形部分。
 - 关于 Common Lisp 图标:
     - 原型: https://common-lisp.net/static/imgs/lisplogo.png
     - SVG 格式由用户 [Jooja](https://commons.wikimedia.org/wiki/User:Jooja) 模仿绘制。
-- 关于哔哩哔哩网页端 Favicon:
-    - 需要修改。参照目前版本修改颜色。
+- 关于哔哩哔哩网页端 favicon:
+    - 做了修改。参照目前的官方 favicon 修改了颜色。
     - 备选 1: https://lobehub.com/zh/icons/bilibili
     - 备选 2: https://fontawesome.com/icons/brands/solid/bilibili
     - 原型: https://www.bilibili.com/favicon.ico
